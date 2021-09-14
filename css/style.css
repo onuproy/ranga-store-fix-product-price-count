@@ -192,10 +192,18 @@ body {
   outline-offset: 0px !important;
 }
 
+.copyright_footer {
+	background: #312F4E;
+	border-top: 1px solid #DDD;
+  padding: 35px 0px;
+}
 
-
-
-
+.footer_text {
+	text-align: center;
+}
+.footer_text p {
+	color: #fff;
+}
 
 @media only screen and (max-width: 768px) {
   #all-products {

@@ -5,12 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Welcome to Pure Shop</title>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <!-- Main Style Css  -->
   <link rel="stylesheet" href="./css/style.css" />
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
 
-  <!-- google Montserrat  font  -->
+  <!-- google font  -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -18,12 +20,16 @@
 </head>
 
 <body>
-  <header></header>
+ 
+  <!-- Main Section Area  -->
   <main class="main">
+    <!-- Title  -->
     <div class="title">
       <h1>Welcome to Pure Shop</h1>
       <p>All products displayed on Pure Shop are 100% genuine. Secure. Pure Shop encryption and is Payment Card Industry</p>
     </div>
+    <!-- End Title  -->
+    <!-- Search Field  -->
     <div class="search-field">
       <div class="search-box">
         <input id="input-field" class="search-field" type="text" placeholder="Search for products or vendors"/>
@@ -33,11 +39,15 @@
         </button>
       </div>
     </div>
+     <!-- Search Field  -->
     <div class="row">
+      <!-- All Product  -->
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
         </div>
       </div>
+      <!-- All Product  -->
+      <!-- Cart -->
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
         <div class="cart" id="my-cart">
           <table class="table">
@@ -87,9 +97,23 @@
           </div>
         </div>
       </div>
+       <!-- Cart -->
     </div>
   </main>
-  <footer></footer>
+  <!-- Footer  -->
+    <footer class="copyright_footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                <div class="footer_text">
+                      <p>Use of this website constitutes acceptance of the Terms of Use, Booking Terms and Privacy policy.</p>
+                      <p>© 2021 Pure Shop Ltd. All Rights Reserved</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <!-- Footer  -->
 
   <!-- add javascript  file  -->
   <script src="./js/app.js"></script>
