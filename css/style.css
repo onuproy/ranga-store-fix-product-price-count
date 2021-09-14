@@ -60,6 +60,26 @@ body {
 .cart-main {
   padding-right: 30px;
 }
+
+/* Ttile Css  */
+.title {
+	text-align: center;
+	max-width: 611px;
+	margin: auto;
+}
+.title h1 {
+	font-family: 'MedievalSharp', cursive;
+	font-size: 55px;
+	text-shadow: 0 0 7px #DDD;
+}
+.title p {
+	max-width: 502px;
+	margin: auto;
+	font-size: 16px;
+	color: #000;
+	font-weight: 500;
+}
+
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
