@@ -54,6 +54,7 @@ body {
 	position: fixed;
 	background: #FFF;
 	z-index: 9999;
+  margin-top: 30px;
 }
 .cart-main {
   padding-right: 30px;
